@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javascript.js"></script>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins',sans-serif;
+        box-sizing: border-box;
+    }
+
+    body{
+        background: #001e4d;
+    }
+
+    .container{
+        background: #fff;
+        width: 100%;
+        max-width: 900px;
+      
+        margin: 400px auto 0;
+        border-radius: 10px;
+        padding: 30px;
+    }
+
+    .quiz{
+        padding: 20px 0;
+        height: 250px;
+    }
+
+    .quiz h2{
+        font-size: 25px;
+        color: #001e4d;
+        font-weight: 600;
+    }
+
+    .btn{
+        background: #fff;
+        color: #222;
+        font-weight: 500;
+        border: 1px solid #222; 
+        padding: 10px;
+        margin: 10px 0;
+        text-align: left;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.3S;
+        width: 100%;
+    }
+    .btn:hover{
+        background: #222;
+        color: #fff ;
+    }
+    .next-btn {
+        background: #001e4d;
+        color: #fff;
+        font-weight: 500;
+        width: 150px;
+        border: 0;
+        padding: 10px;
+        margin: 20px auto 0;
+        border-radius: 4px;
+        cursor: pointer;
+        
+    }
+</style>
+<body>
+
+    <div class="container">
+            <h1 style="margin-bottom: 5px; text-align: center;">LOGIN</h1>
+
+            <hr>
+
+            <div class="quiz"> 
+                
+                
+
+                <div id="answer-buttons">
+                    
+                    <input type="text" id="email" class="btn" placeholder="PLease enter  Email">
+
+                    <input type="text" id ="address" class="btn" placeholder="PLease enter  Password">
+
+
+
+                                
+                    
+                    
+                </div>
+
+                <button class="next-btn" onclick="login()"> Login</button>
+
+
+
+                
+            </div>
+    </div>
+   
+
+
+    <script>
+
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+li{
+    font-size: 30px;
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+.eductaion-container h2:hover{
+   background-color: #39185a;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: #ebecf0 ; 
+
+  
+
+}
+.main-section{
+    width: 300mm;
+    height: 350mm;
+    display: flex;
+    background-color: white;
+    margin: 0 auto;
+
+}
+
+.right-part{
+   
+    padding: 2.8rem;
+    
+    
+}
+
+
+ .left-part{
+    width: 99%; 
+    height: 100%;
+    background-color: #f4f4f4;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+    padding: 0.8rem;
+    width: 300px;
+    
+    padding-top: 20px;
+
+}
+
+.left-part .image img{
+
+    width: 70%;
+    height:150px;
+    border-radius: 100%;
+    border: 0.5rem solid white;
+ 
+     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+}
+
+.left-part .image{
+    margin-bottom: 1rem;
+}
+
+ul{
+    list-style-type: none;
+}
+.title{
+    font-size: 'Public Sans',sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 0.6rem;
+    background-color: #444440;
+    color: white;
+    text-align: center;
+    margin: 1.4rem 0;
+}
+
+.contact-container .contact-list{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.5rem;
+    color:#444440;
+    letter-spacing: 0.3rem;
+    font-family: 'Lato',sans-serif;
+    letter-spacing: 1px;
+
+}
+.banner{
+    border-bottom: 2px solid black;
+}
+
+.education-title{
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: .3rem;
+}
+
+.course{
+
+    margin-bottom: 1rem;
+    color: #414042;
+
+}
+
+.college-name{
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    font-size: 2rem;
+    
+}
+
+.education-date{
+
+    font-size: 2rem;
+
+}
+
+.date{
+    font-size: 0.6rem;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+    font-family: 'Lato',sans-serif;
+    align-items: center;
+}
+
+.outer-layer{
+
+    background-color: #792525;
+    height: 0.4rem;
+    width: 5rem;
+    border-radius: 0.4rem;
+
+}
+
+
+
+
+.right-part .banner{
+
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   margin-bottom: 1.1rem;
+}
+
+.right-part .banner .fname{ 
+   
+
+    margin-top: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4d4d4f;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+
+.right-part .banner .lname{
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 0.5rem;
+    margin-top: -0.5rem;
+
+}
+
+.right-part .banner .position{
+    letter-spacing:0.3rem;
+    text-transform: uppercase;
+    margin-top: -0.5rem;
+    font-size: 1.1rem ;
+}
+
+
+/* .work-container1{
+
+    margin-top: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    width: 60%;  
+} */
+
+.work-container{
+
+    margin-top: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    width: 100%;  
+}
+
+.job-date{
+    display: flex;
+    justify-content: space-between;
+    color: #0f0f0f;
+    margin-bottom: 0.5rem ;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: 0.3
+}
+
+
+.job-date1{
+    display: flex;
+    justify-content: space-between;
+    color: #0f0f0f;
+    margin-bottom: 0.5rem ;
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+
+.work-container .work .company-name{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.work{
+    margin-bottom: 1rem;
+}
+
+.date{
+
+    font-size: 1rem;
+
+}
+
+.job{
+
+    font-size: 1rem;
+
+}
