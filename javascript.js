@@ -13,7 +13,7 @@ function dataForm(){
             localStorage.setItem("email",email)
             localStorage.setItem("comment",comment)
 
-            // alert(`Your name is ${localStorage.getItem("name")} and use this email to login ${localStorage.getItem("email")} and password use your ${localStorage.getItem("address")}`)
+             alert(`Your name is ${localStorage.getItem("name")} and use this email to login ${localStorage.getItem("email")} and password use your ${localStorage.getItem("address")}`)
             
             window.location.href('login.html');
         }
